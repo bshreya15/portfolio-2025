@@ -99,6 +99,7 @@ export const ProjectsSection = () => {
                 <div className="relative">
                   <Image
                     src={project.image}
+                    quality={95}
                     alt="project image"
                     className="mt-8 lg:mt-0 -mb-8 md:-mb-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none"
                   ></Image>
